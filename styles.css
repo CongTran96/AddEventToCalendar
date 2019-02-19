@@ -1,0 +1,136 @@
+.addeventatc {
+    display: inline-block;
+    position: relative;
+    z-index: 99998;
+    font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+    color: #000!important;
+    font-weight: 600;
+    line-height: 100%;
+    background: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 13px 12px 12px 43px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased!important;
+    outline-color: rgba(0,78,255,0.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-shadow: 0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent!important;
+    background-position: -9999px -9999px;
+    background-repeat: no-repeat;
+}
+
+.addeventatc_dropdown {
+    width: 230px;
+    position: absolute;
+    padding: 6px 0px 0px 0px;
+    font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+    color: #000!important;
+    font-weight: 600;
+    line-height: 100%;
+    background: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: left;
+    margin-left: -1px;
+    display: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: rgba(0,0,0,0.4) 0px 10px 26px;
+    -moz-box-shadow: rgba(0,0,0,0.4) 0px 10px 26px;
+    box-shadow: rgba(0,0,0,0.4) 0px 10px 26px;
+    transform: scale(.98,.98) translateY(5px);
+    opacity: 0.5;
+    z-index: -1;
+    transition: transform .15s ease;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.addeventatc .addeventatc_icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    top: 10px;
+    background: url("images/calendar-logo.svg") no-repeat;
+    background-size: 18px 18px;
+}
+
+.addeventatc_dropdown a {
+    display: block;
+    line-height: 100%;
+    background: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+    padding: 14px 10px 14px 55px;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+.addeventatc_dropdown .copyx {
+    height: 21px;
+    display: block;
+    position: relative;
+    cursor: default;
+}
+
+.addeventatc_dropdown em {
+    color: #999!important;
+    font-size: 12px!important;
+    font-weight: 400;
+}
+
+.addeventatc_dropdown .ateappleical {
+    background: url('images/apple-logo-filled.svg') 18px 40% no-repeat;
+    background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .ategoogle {
+    background: url('images/google.svg') 18px 50% no-repeat;
+    background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .ateoutlook {
+    background: url('images/microsoft-outlook.svg') 18px 50% no-repeat;
+    background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .ateoutlookcom {
+    background: url('images/microsoft-outlook-online.svg') 18px 50% no-repeat;
+    background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .ateyahoo {
+    background: url('images/yahoo.svg') 18px 50% no-repeat;
+    background-size: 22px 100%;
+}
+
+.addeventatc_dropdown.topdown.addeventatc-selected {
+    transform: scale(1,1) translateY(0px)!important;
+}
+
+.addeventatc_dropdown.addeventatc-selected {
+    opacity: 1;
+    transform: scale(1,1) translateY(0px);
+    z-index: 99999999;
+}
+
+.addeventatc_dropdown.topdown {
+    transform: scale(.98,.98) translateY(-5px)!important;
+}
+
+.addeventatc_dropdown a:hover {
+    background-color: #f4f4f4;
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
